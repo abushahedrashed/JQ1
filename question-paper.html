@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Question Paper</title>
+    <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|BenchNine|Lemonada|Orbitron" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        
+        <div class="nv">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h5>MITHU</h5></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+               
+                <ul class="nav navbar-nav navbar-right nav-custom">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Question Paper</a></li>
+                 
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="qpaper">
+      <div class="container ">
+        <div class="overlay">
+          <div>
+            <h1>Choose the right answer:</h1>
+          </div>
+          <div class="questions">
+            <div>
+              <h3>1. What is the name of the capital of Bangladesh?</h3>
+              <form>
+                <input type="radio" name="capital" value="">&nbsp;&nbsp;London <br>
+                <input type="radio" name="capital" value="">&nbsp;&nbsp;New York <br>
+                <input type="radio" name="capital" value="">&nbsp;&nbsp;Dhaka <br>
+                <input type="radio" name="capital" value="">&nbsp;&nbsp;Khulna 
+              </form>
+            </div>
+            <div>
+              <h3>2. Where is the longest sea beach in the world?</h3>
+              <form>
+                <input type="radio" name="beach" value="">&nbsp;&nbsp;Bangkok <br>
+                <input type="radio" name="beach" value="">&nbsp;&nbsp;Cox's Bazar <br>
+                <input type="radio" name="beach" value="">&nbsp;&nbsp;Barisal <br>
+                <input type="radio" name="beach" value="">&nbsp;&nbsp;Pabna 
+              </form>
+            </div>
+            <div>
+              <h3>3. How many division in Bangladesh?</h3>
+              <form>
+                <input type="radio" name="division" value="">&nbsp;&nbsp;8 <br>
+                <input type="radio" name="division" value="">&nbsp;&nbsp;78 <br>
+                <input type="radio" name="division" value="">&nbsp;&nbsp;500 <br>
+                <input type="radio" name="division" value="">&nbsp;&nbsp;64 
+              </form>
+            </div>
+            <div>
+              <h3>4. Which one is not a district name of Bangladesh?</h3>
+              <form>
+                <input type="radio" name="district" value="">&nbsp;&nbsp;Pabna <br>
+                <input type="radio" name="district" value="">&nbsp;&nbsp;Rongpur<br>
+                <input type="radio" name="district" value="">&nbsp;&nbsp;Dhaka <br>
+                <input type="radio" name="district" value="">&nbsp;&nbsp;Ishwardi 
+              </form>
+            </div>
+            <div>
+              <h3>5. Name of Sea Port of Bangladesh.</h3>
+              <form>
+                <input type="checkbox" name="Port1" value="">&nbsp;&nbsp;Mongla Port <br>
+                <input type="checkbox" name="Port2" value="">&nbsp;&nbsp;Paira Port<br>
+                <input type="checkbox" name="Port3" value="">&nbsp;&nbsp;Benapole Port<br>
+                <input type="checkbox" name="Port4" value="">&nbsp;&nbsp;Chittagong Port <br>
+                <input type="checkbox" name="Port5" value="">&nbsp;&nbsp;Banglabsndha Port
+              </form>
+            </div>
+            <div class="bton">
+              <button type="button" class="btn btn-custom">Submit</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $(function(){
+        $("body").css("font-family","arial");
+        $("select").change(function(){
+          var Fonts=$("select").val();
+          $("body").css("font-family",Fonts);
+        })
+        
+
+    })
+
+  </script>
+  </body>
+</html>

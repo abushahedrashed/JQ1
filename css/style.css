@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700i');
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+body{
+	background: url(../images/bW.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.contant{
+	color: #afadad;
+}
+
+select{
+	background: rgba(238, 238, 238, 0.23);
+	min-width: 170px;
+	min-height: 45px;
+	border: 2px solid #222;
+	border-radius: 10px;
+	padding: 5px 0 7px 12px ;
+}
+span{
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+.navbar-brand {
+    float: left;
+     height: auto; 
+     padding: 5px 15px; 
+    font-size: 22px;
+    line-height: 22px;
+}
+.navbar-brand h5{
+	font-size: 45px;
+	font-weight: bolder;
+	color: #3570AA;
+	font-family: 'Ruslan Display', cursive;
+	}
+.nav-custom{
+	font-size: 20px;
+	font-weight: bold;
+	color: #3570AA;
+	font-family:  cursive;
+	
+}
+.navbar-default {
+    background-color: rgba(248, 248, 248, 0.12);
+    border-color: rgba(231, 231, 231, 0);
+}
+
+
+.qpaper{
+	color: #afadad; 
+	
+}
+.overlay{
+	background-color: rgba(248, 248, 248, 0.12);
+	padding: 10px 15px;
+}
+.questions{
+	padding-left: 2em
+}
+.questions form{
+	padding-left: 2em
+}
+.bton{
+	padding-top: 2em;
+}
+.btn-custom{
+	padding: 7px 45px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	background-color: rgba(248, 248, 248, 0.12);
+    border:2px solid transparent;
+}
+.btn-custom:hover{
+	color: #fff;
+	background-color: transparent;
+    border:2px solid #fff;
+}
